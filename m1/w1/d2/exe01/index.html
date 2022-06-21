@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <style></style>
     <meta charset="UTF-8">
     <meta  name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style src="style.css"></style>
     <title>Sviluppo di una pagina web - Blog Epicode</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <img src="assets/img/logo.svg" alt="Epicode Logo">
+            <img class="logo" src="assets/img/logo.svg" alt="Epicode Logo">
             <h1>Il Blog dei developers</h1>
-            <hr>
         </header>
         <nav>
             <a href=""><h2>Home</h2></a>
             <a href=""><h2>Articoli</h2></a>
             <a href=""><h2>Job</h2></a>
-            <hr>
         </nav>
         <main>
             <section>
@@ -47,7 +43,7 @@
                     <li>Applicare gli stili CSS</li>
                     <li>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</li>
                 </ul>
-                <table>
+                <table class="table">
                     <caption>
                         Diffusione dei CSS
                     </caption>
@@ -89,14 +85,16 @@
                 <p>
                     Un test di validazione potrà essere fatto tramite il <a href="https://www.google.com" target="_blank">tool online</a> dedicato all scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:
                 </p>
+
+                <!-- YOUTUBE FRAME-->
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/KMU0tzLwhbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
             <p>
                 Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:
             </p>
             <form action="" method="post">
-                <input type="email" placeholder="Inserisci la tua e-mail">
-                <button type="submit">Iscriviti!</button>
+                <input class="input-group flex-nowrap" type="email" placeholder="Inserisci la tua e-mail">
+                <button class="btn btn-danger" type="submit">Iscriviti!</button>
             </form>
         </main>
         <aside>
@@ -116,7 +114,6 @@
             </div>
         </aside>
         <div class="footer">
-            <hr>
             <div>Blog Epicode &copy;2021</div>
             <div>
                 Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Enaudi 2 - Milano. P.IVA 00112233 <a href="mailto:info@epicode.school">info@epicode.school</a>
