@@ -1,8 +1,17 @@
 INIZIALIZZA UNA NUOVA REPOSITORY
 git init
 
+AGGIUNGERE UN ORIGIN (dal sito di git)
+git remote add origin https://github.com/Clickstr33t/fs0422-Andrea-Paffi.git
+
 VERIFICA LO STATO DELLE MODIFICHE
 git status
 
 AGGIUNGE TUTTO
 git add .
+
+CREARE UN COMMIT
+git commit -m "first commit"
+
+UPLOAD SU ORIGIN DA MASTER
+git push origin master
