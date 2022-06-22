@@ -1,0 +1,12 @@
+@font-face{
+    font-family: MioFont;
+    src: url("../webfont/ufonts.com_tw-cen-mt.ttf") format("truetype");
+}
+
+html{
+    font-size: 20px;
+}
+h1{
+    font-family: MioFont;
+    font-size: 3rem;
+}

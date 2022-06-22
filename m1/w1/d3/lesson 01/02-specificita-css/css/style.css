@@ -1,0 +1,28 @@
+
+#main-header li a{/* peso 100 + 1 + 1 */
+    text-decoration: none;
+    color:black;
+}
+#main-header a{ /* peso 100 + 1 */
+    text-decoration: none;
+    color:red !important;
+}
+a{ /* peso 1 */
+    text-decoration: none;
+    color:blue;
+}
+
+
+/* Altri modi per selezionalre */
+
+div.sfondo-blue{
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+div.sfondo-blue.testo-grassetto {
+    font-weight: bold;
+}
+
+.sfondo-blue, .testo-grassetto{
+    height: 50px;
+}

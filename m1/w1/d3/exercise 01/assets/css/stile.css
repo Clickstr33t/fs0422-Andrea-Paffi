@@ -1,0 +1,80 @@
+/* IMPOSTAZIONI GENERALI */
+html{
+    font-family: 'Raleway', sans-serif;
+}
+/* HEADER */
+header{
+    background-color: rgba(0,160,198,255);
+    padding-top: 25px;
+    text-align: center;
+    height: 125px;
+    border-bottom: 3px solid rgba(2,119,148,255);
+}
+header h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 auto 15px;
+    color: white;
+    width: 200px;
+    line-height: 30px;
+}
+header span{
+
+    color: rgba(4,160,198,255);
+    background-color: rgb(255, 255, 255);
+}
+/* MAIN */
+main{
+    padding: 0 5%;
+}
+main h2{
+    font-weight: bold;
+    color: rgba(2,119,148,255);
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+main figure img{
+    padding: 5px;
+    border: solid 1px #d7d7d7;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main figcaption{
+    margin-top: 10px;
+    font-weight: 550;
+    text-align: center;
+}
+
+main address {
+    margin: 20px;
+    line-height: 2em;
+}
+main address b{
+    font-weight:bolder;
+}
+
+main address :not(b){
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ce6054
+}
+
+address + p {
+    font-weight: bolder;
+    
+}
+
+blockquote p{
+    font-style: italic;
+    background-color:#e3e3e3;
+    padding: 10% 5%;
+    border-radius: 10px 10px 10px 10px;
+    width: 90%;
+    margin: 30px auto;
+}
+/* ELEMENTI NEL MAIN */
+
+/* FOOTER */
