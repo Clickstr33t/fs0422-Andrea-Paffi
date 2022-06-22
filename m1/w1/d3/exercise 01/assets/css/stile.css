@@ -2,6 +2,7 @@
 
 html{
     font-family: 'Raleway', sans-serif;
+    min-width: 360px;
 }
 hr{
     border:0.5px dashed  #5c5c5c;
@@ -27,9 +28,10 @@ footer hr {
 
 header{
     background-color: rgba(0,160,198,255);
-    padding-top: 25px;
+    padding-top: 40px;
     text-align: center;
-    height: 125px;
+    height: 150px;
+    width: auto;
 }
 
 header h1{
@@ -46,7 +48,9 @@ header span{
     background-color: rgb(255, 255, 255);
 }
 
-
+header h2{
+    font-weight: lighter;
+}
 
 /* MAIN */
 
