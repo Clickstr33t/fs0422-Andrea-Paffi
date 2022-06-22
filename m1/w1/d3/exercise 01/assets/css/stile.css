@@ -15,7 +15,7 @@ a{
 header + hr, main + hr {
     border:3px solid rgba(2,119,148,255);
     margin:0;
-    width: 100%;
+    width: auto;
 }
 
 footer hr {
