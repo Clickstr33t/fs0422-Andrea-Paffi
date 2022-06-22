@@ -5,6 +5,7 @@ html{
 }
 hr{
     border:0.5px dashed  #5c5c5c;
+    width: 80%;
 }
 
 a{
@@ -14,6 +15,7 @@ a{
 header + hr, main + hr {
     border:3px solid rgba(2,119,148,255);
     margin:0;
+    width: 100%;
 }
 
 footer hr {
