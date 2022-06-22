@@ -1,15 +1,35 @@
 /* IMPOSTAZIONI GENERALI */
+
 html{
     font-family: 'Raleway', sans-serif;
 }
+hr{
+    border:0.5px dashed  #5c5c5c;
+}
+
+a{
+    color: #ce6054;
+}
+
+header + hr, main + hr {
+    border:3px solid rgba(2,119,148,255);
+    margin:0;
+}
+
+footer hr {
+    border:none;
+}
+
+
 /* HEADER */
+
 header{
     background-color: rgba(0,160,198,255);
     padding-top: 25px;
     text-align: center;
     height: 125px;
-    border-bottom: 3px solid rgba(2,119,148,255);
 }
+
 header h1{
     font-size: 20px;
     text-transform: uppercase;
@@ -23,14 +43,22 @@ header span{
     color: rgba(4,160,198,255);
     background-color: rgb(255, 255, 255);
 }
+
+
+
 /* MAIN */
+
 main{
-    padding: 0 5%;
+    padding: 0 3%;
 }
+
+/* ELEMENTI NEL MAIN */
+
 main h2{
     font-weight: bold;
     color: rgba(2,119,148,255);
     padding-top: 20px;
+    margin-bottom: 20px;
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -49,17 +77,18 @@ main figcaption{
     text-align: center;
 }
 
-main address {
+main div {
     margin: 20px;
-    line-height: 2em;
+    line-height: 1.5em;
+}
+main address{
+    margin: 20px 0;
 }
 main address b{
     font-weight:bolder;
 }
-
-main address :not(b){
+main address, a :not(b){
     font-family: Arial, Helvetica, sans-serif;
-    color: #ce6054
 }
 
 address + p {
@@ -72,9 +101,39 @@ blockquote p{
     background-color:#e3e3e3;
     padding: 10% 5%;
     border-radius: 10px 10px 10px 10px;
-    width: 90%;
     margin: 30px auto;
 }
-/* ELEMENTI NEL MAIN */
+main strong{
+    color:#027794;
+}
+main mark{
+    background-color: #027794;
+    color: white;
+}
+
+main section h3 {
+    margin: 10px 0;
+    color:black;
+    font-weight: bold;
+}
+main ul{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+main dd{
+    margin-left: 30px;
+}
 
 /* FOOTER */
+footer {
+    background-color: #353535;
+    color: white;
+    text-align: center;
+    line-height: 2em;
+}
+footer kbd{
+   color: #ffff00;
+}
+footer small{
+    color:#909796;
+}
