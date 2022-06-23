@@ -1,0 +1,190 @@
+/* IMPOSTAZIONI GENERALI */
+html{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    padding: 20px;
+    background-image: url("../img/sfondo.png");
+    background-size:contain;
+    background-repeat:repeat-y;
+    line-height: 1.5;
+}
+header, main, footer{
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, .5);
+    margin-bottom: 30px;
+    padding:20px;
+}
+hr{
+    display: none;
+}
+h1{
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 20px;
+}
+/* HEADER */
+header{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(#009fc6, #126787);
+    
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header li::before{
+    content: "⇒ ";
+}
+header li::after{
+    content: " ⇐";
+}
+header li{
+    list-style-type:none;
+}
+/* MAIN */
+main{
+    background-color: white;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+article h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+h1 + p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:  #9fa2a1;
+}
+iframe{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+article{
+    margin-bottom:20px;
+}
+article a{
+    color: #0999c9;
+    font-weight: bold;
+}
+article li{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+article code {
+    background-color: rgb(215, 214, 214);
+    border: 1px solid black;
+    border-radius: 3px;
+}
+article strong{
+    color:  #a4237f;
+    font-weight: bold;
+}
+/* TABELLE */
+table{
+    width: 100%;
+    border-bottom: 3px solid #3467dc;
+    margin-bottom: 30px;
+}
+td{
+    width:calc(100%/3);
+    text-align: center;
+    height: 50px;
+    vertical-align:middle;
+}
+table caption{
+    font-weight: bold;
+    font-style: italic;
+}
+table thead{
+    background-color:  #3467dc;
+    color: white;
+    height: 40px;
+}
+
+thead th {
+    vertical-align:bottom;
+    border: 1px solid white;
+}
+tr:nth-of-type(even){
+    background-color:  #dfdfe1;
+    border-top: 1px solid #a7a7ab;
+    border-bottom: 1px solid #a7a7ab;
+}
+/* FORM */
+section{
+    background-color:  #dfdfe1;
+    border: 1px solid #d2d2d2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+section h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section p{
+    margin-bottom: 20px;
+}
+section input{
+    border: none;
+    border-bottom: 1px dashed grey;
+    background-color: white;
+    height: 30px;
+}
+section button{
+    border: none;
+    background-color:  #3667dc;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+}
+
+
+/* ELEMENTI NELL' ASIDE */
+aside h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+aside a{
+    color: #159bcb;
+    font-weight: bold;
+}
+aside div{
+    background-color:  #dfdfe1;
+    border: 1px solid #d2d2d2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+aside div p:last-of-type{
+    text-align: right;
+    font-size: 13px;
+    margin-top: 20px;
+}
+/* FOOTER */
+footer{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(
+        #005566, #364137);
+    margin-bottom: 0;
+}
+footer a{
+    color: #fc08ec;
+}
